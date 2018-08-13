@@ -1,0 +1,43 @@
+/* Layout */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+  }
+
+  h1, ul {
+    margin: 0 !important;
+    padding: 10px;
+  }
+
+  .container {
+    background-color: #D65076;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .logo-svg {
+    display: flex;
+    max-width: 40%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
